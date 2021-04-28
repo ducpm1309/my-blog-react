@@ -79,3 +79,5 @@ export default function CreatePostModal() {
     </div>
   );
 }
+
+// modal là của material-ui , open là attribute

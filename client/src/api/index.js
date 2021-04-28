@@ -7,4 +7,4 @@ export const createPost = (payload) => axios.post(`${URL}/posts`, payload);
 export const updatePost = (payload) =>
   axios.post(`${URL}/posts/update`, payload);
 
-// dùng axios để gọi các request get, post
+// axios là 1 library để gọi các request get, post api

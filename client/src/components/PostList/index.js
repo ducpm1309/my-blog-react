@@ -17,10 +17,11 @@ export default function PostList() {
   return (
     <Grid container spacing={2} alignItems='stretch'>
       {posts.map((post) => (
-        <Grid key={post._id} item xs={12} sm={6}>
+        <Grid key={post._id} item xs={12} sm={6}>    
           <Post post={post} />
         </Grid>
       ))}
     </Grid>
   );
 }
+// việc set key sẽ giúp cho react bt đc component nào có sự thay đổi về dữ liệu và chỉ update component đó

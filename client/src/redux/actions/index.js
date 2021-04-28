@@ -5,8 +5,8 @@ export const getType = (reduxAction) => {
 };
 
 export const getPosts = createActions({
-  getPostsRequest: undefined,
-  getPostsSuccess: (payload) => payload,
+  getPostsRequest: undefined,             // gọi khi gửi 1 request
+  getPostsSuccess: (payload) => payload,  // gọi khi lấy đc post thành công
   getPostsFailure: (err) => err,
 });
 
